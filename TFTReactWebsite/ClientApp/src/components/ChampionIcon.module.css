@@ -1,0 +1,53 @@
+﻿.container {
+    position: relative;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.image {
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    background: #0c0c0c7a;
+    color: white;
+    width: 94%;
+    padding-left: 2px;
+}
+
+.tier {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    color: white;
+    background: #0c0c0cab;
+    width: 25%;
+    border-radius: 0 0 0 5px;
+}
+
+.value {
+    position: absolute;
+    top: 34%;
+    margin: 0 auto;
+    color: white;
+    right: 34%;
+    background: #0000008a;
+    width: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.traitContainer {
+    position: absolute;
+    padding-left: 4px;
+    top: 0;
+}
+
+.traitIcon {
+    width: 20%;
+    margin: 0px 1px;
+    opacity: 1;
+}
